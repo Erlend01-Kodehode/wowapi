@@ -1,0 +1,79 @@
+1. Idea
+No unique idea. Random fetch page with comprehensive filters. Maybe good CSS.
+
+2. Plan
+TOOLS = {
+    AND = {
+        VSCode
+        HTML
+        CSS
+        JavaScript
+        ReactJS
+        Github
+        Owen_Wilson_Wow_Api = {
+            OR = {
+                Random_Wow
+                Ordered_Wow
+            }
+        }
+    }
+}
+
+COMPONENTS = {
+    AND = {
+        ReactJS
+        App // Fetching and data handling = {
+            AND = {
+                Header // Filters
+                Body // Content - Results
+            }
+        }
+        api.js // Api Variables
+    }
+}
+
+Order:
+Plan
+Setup
+Program Api
+Filters
+Display Results
+CSS
+Eval
+
+TIME = {
+    Day1 = {
+        Planning = 02:30
+        Setup = 03:30
+    }
+    Day2 = {
+        Configure API = 03:00
+        Configure Filters = 03:00
+    }
+    Day3 = {
+        Time loss due to outstanding committments = 01:00
+        Complete API Data handling = 02:30
+        DOM display API result = 02:30
+    }
+    Day4 = {
+        Finish functionality = 02:30
+        CSS = 03:30
+        Eval = Remaining Time
+    }
+    Day5 = {
+        Functionality = Flexible
+        Eval = Flexible
+    }
+    Day5+ = {
+        Whatever needs doing = Flexible
+    }
+}
+
+Thoughts:
+Haven't made a frontend page in a while. Need to clean off the rust.
+
+3. Execution
+See Webpage
+
+4. Evaluation
+TODO
