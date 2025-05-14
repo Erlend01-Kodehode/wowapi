@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { ApiContext, DataContext } from "../App.jsx";
-import Wow from "./Wow.jsx";
 
 function Body() {
   const [apiData, setApiData] = useContext(ApiContext);
@@ -11,10 +10,10 @@ function Body() {
       {error && <p>{error}</p>}
       {!error && !loading && apiData && (
         <div>
-          <p>Loaded</p>
-          {/* {apiData.results.map((wow) => {
-            return <Wow key={wow.id} wow={wow} />;
-          })} */}
+          {/* <p>Loaded</p> */}
+          <h2>{apiData[0].movie}</h2>
+          <p>{apiData[0].full_line}</p>
+          <img src={apiData[0].poster} alt="Movie Poster" />
         </div>
       )}
     </>

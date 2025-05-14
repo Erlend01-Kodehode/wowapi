@@ -6,7 +6,10 @@ function Header() {
   const [apiFetch, setApiFetch] = useContext(FetchContext);
 
   function handleFetch() {
-    setApiFetch(`${apiAdress}`);
+    setApiFetch(null);
+    setTimeout(() => {
+      setApiFetch(`${apiAdress}`);
+    }, 100);
   }
 
   return (
