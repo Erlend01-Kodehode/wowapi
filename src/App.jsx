@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      if ((apiFetch = !null)) {
+      if (apiFetch != null) {
         setLoading(true);
         setError(null);
         try {
@@ -25,6 +25,7 @@ function App() {
           }
           const result = await response.json();
           setApiData(result);
+          setError(false);
         } catch (err) {
           setError(err.message);
         } finally {
@@ -44,7 +45,13 @@ function App() {
   }, [error]);
 
   useEffect(() => {
-    console.log("Api:", apiData);
+    console.log("Fetch:", apiFetch);
+  }, [apiFetch]);
+
+  useEffect(() => {
+    if (apiData != null) {
+      console.log("Api:", apiData[0]);
+    }
   }, [apiData]);
 
   return (

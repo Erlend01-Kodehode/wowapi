@@ -1,15 +1,8 @@
-const apiAdress = "https://owen-wilson-wow-api.onrender.com/wows/random";
+const apiAdress =
+  "https://owen-wilson-wow-api.onrender.com/wows/random?results=1";
 
 const apiModifier = `?`; //Begin Filters
 const apiAddition = `&`; //Additional Filters
-
-const apiResults = `results=${apiResultsModifier}`; //INT
-const apiYear = `year=${apiYearModifier}`; //INT
-const apiMovie = `movie=${apiMovieModifier}`; //STRNG
-const apiDirector = `director=${apiDirectorModifier}`; //STRNG
-const apiWowInMovie = `wow_in_movie=${apiWowInMovieModifier}`; //INT
-const apiSort = `sort=${apiSortModifier}`; //STRNG
-const apiDirection = `direction=${apiDirectionModifier}`; //STRNG
 
 let apiResultsModifier = Number;
 let apiYearModifier = Number;
@@ -18,6 +11,14 @@ let apiDirectorModifier = String;
 let apiWowInMovieModifier = String;
 let apiSortModifier = String;
 let apiDirectionModifier = String;
+
+const apiResults = `results=1`; //INT
+const apiYear = `year=`; //INT
+const apiMovie = `movie=`; //STRNG
+const apiDirector = `director=`; //STRNG
+const apiWowInMovie = `wow_in_movie=`; //INT
+const apiSort = `sort=`; //STRNG
+const apiDirection = `direction=`; //STRNG
 
 export {
   apiAdress,
