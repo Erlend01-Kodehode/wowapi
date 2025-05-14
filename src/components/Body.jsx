@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { ApiContext, DataContext } from "../App";
-import Wow from "./Wow";
+import { ApiContext, DataContext } from "../App.jsx";
+import Wow from "./Wow.jsx";
 
 function Body() {
   const [apiData, setApiData] = useContext(ApiContext);

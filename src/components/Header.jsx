@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { FetchContext } from "../App";
-import { apiAdress, apiModifier, apiResults } from "../data/api";
+import { FetchContext } from "../App.jsx";
+import { apiAdress, apiModifier, apiResults } from "../data/api.js";
 
 function Header() {
   const [apiFetch, setApiFetch] = useContext(FetchContext);

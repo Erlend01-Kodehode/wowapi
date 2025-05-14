@@ -1,5 +1,5 @@
-import Header from "./components/Header";
-import Body from "./components/Body";
+import Header from "./components/Header.jsx";
+import Body from "./components/Body.jsx";
 
 import { createContext, useEffect, useState } from "react";
 
