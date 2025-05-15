@@ -1,5 +1,5 @@
 const apiAdress =
-  "https://owen-wilson-wow-api.onrender.com/wows/random?results=1";
+  "https://owen-wilson-wow-api.onrender.com/wows/random?results=3";
 
 const apiModifier = `?`; //Begin Filters
 const apiAddition = `&`; //Additional Filters

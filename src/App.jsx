@@ -51,6 +51,7 @@ function App() {
   useEffect(() => {
     if (apiData != null) {
       console.log("Api:", apiData[0]);
+      console.log(apiData);
     }
   }, [apiData]);
 
