@@ -14,9 +14,8 @@ function Header() {
 
   return (
     <>
-      <h2>Header</h2>
       <div>
-        <button onClick={() => handleFetch()}>Random</button>
+        <button onClick={() => handleFetch()}>Fetch Random Wow</button>
       </div>
     </>
   );
