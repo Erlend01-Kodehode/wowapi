@@ -10,11 +10,11 @@ function Body() {
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {!error && !loading && apiData && (
-        <>
+        <div className="ResultContainer">
           {apiData.map((wow) => {
             return <Wow key={wow.id} wow={wow} />;
           })}
-        </>
+        </div>
       )}
     </>
   );

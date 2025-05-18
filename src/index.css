@@ -7,3 +7,55 @@
 head {
   display: none;
 }
+
+div {
+  margin: 0px;
+  padding: 2px;
+}
+
+img,
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  max-height: 600px;
+}
+
+video {
+  max-height: 300px;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: lightgrey;
+}
+
+.ResultContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+}
+
+.ResultCard {
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  transition: 0.4s;
+}
+
+.ResultCard:hover {
+  background-color: lightgrey;
+}

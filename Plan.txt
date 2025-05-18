@@ -76,4 +76,13 @@ Haven't made a frontend page in a while. Need to clean off the rust.
 See Webpage
 
 4. Evaluation
-TODO
+Effort:
+A combination of not having made a frontend site in a while, interviews distracting me, a wicked headache at the end of the project and a general lack of motivation means that this task did not get the focus it deserved.
+It was fun to get up and running once how making a site started to come back to me, but I never took the time to configure the search filters I wanted.
+Hoping now that I've gotten frontend somewhat back into my fingers, future projects will get more care.
+
+Planning:
+Atrocious planning. I never got past the "fetch results" stage of what the website should do. Due to the concept being super simple, I never gave the layout much thought beyond displaying results as cards.
+Not wireframing an Idea into Figma and doing all of the CSS last resulted in a messy website construction.
+
+Would prioritise creating a wireframe and page structure first before going in to code.

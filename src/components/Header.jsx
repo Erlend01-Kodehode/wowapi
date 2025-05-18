@@ -13,11 +13,9 @@ function Header() {
   }
 
   return (
-    <>
-      <div>
-        <button onClick={() => handleFetch()}>Fetch Random Wow</button>
-      </div>
-    </>
+    <div>
+      <button onClick={() => handleFetch()}>Fetch Random Wow</button>
+    </div>
   );
 }
 
